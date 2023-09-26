@@ -204,24 +204,30 @@
             this.textBox4.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.textBox4.Location = new System.Drawing.Point(69, 45);
             this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 4;
+            this.textBox4.Text = "0";
             // 
             // textBox5
             // 
             this.textBox5.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.textBox5.Location = new System.Drawing.Point(69, 90);
             this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 5;
+            this.textBox5.Text = "0";
             // 
             // textBox6
             // 
             this.textBox6.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.textBox6.Location = new System.Drawing.Point(69, 128);
             this.textBox6.Name = "textBox6";
+            this.textBox6.ReadOnly = true;
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 6;
+            this.textBox6.Text = "0";
             // 
             // textBox7
             // 

@@ -25,10 +25,10 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox4.Text = textBox1.Text;
-            textBox5.Text = textBox2.Text;
-            textBox6.Text = textBox3.Text;
             int sum = 0;
+            textBox4.Text = (Int32.Parse(textBox1.Text) * 15).ToString();
+            textBox5.Text = (Int32.Parse(textBox2.Text) * 12).ToString();
+            textBox6.Text = (Int32.Parse(textBox3.Text) * 9).ToString();
             sum = Int32.Parse(textBox4.Text) + Int32.Parse(textBox5.Text) + Int32.Parse(textBox6.Text);
             textBox7.Text = sum.ToString();
         }
@@ -43,10 +43,10 @@ namespace WindowsFormsApp1
             textBox1.Text = "";
             textBox2.Text = "";
             textBox3.Text = "";
+            textBox7.Text = "";
             textBox4.Text = "";
             textBox5.Text = "";
             textBox6.Text = "";
-            textBox7.Text = "";
         }
 
         private void button3_Click(object sender, EventArgs e)
